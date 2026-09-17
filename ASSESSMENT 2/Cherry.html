@@ -1,0 +1,675 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cherry</title>
+  </head>
+  <body>
+    <!-- ================= GLOBAL DECORATIONS ================= -->
+
+    <div class="background-decorations" aria-hidden="true">
+      <span class="floating-star star-1">✦</span>
+      <span class="floating-star star-2">✧</span>
+      <span class="floating-star star-3">★</span>
+      <span class="sparkle sparkle-1">✦</span>
+      <span class="sparkle sparkle-2">✧</span>
+      <span class="cloud cloud-1">☁</span>
+      <span class="cloud cloud-2">☁</span>
+      <span class="floating-heart heart-1">♡</span>
+      <span class="floating-heart heart-2">♡</span>
+      <span class="butterfly butterfly-1">🦋</span>
+      <span class="butterfly butterfly-2">🦋</span>
+    </div>
+
+    <!-- ================= NAVIGATION ================= -->
+
+    <header class="site-header">
+      ```
+      <nav class="navbar" aria-label="Main Navigation">
+        <a href="#home" class="logo"> CR <span>✦</span> </a>
+
+        <div class="nav-links">
+          <a href="#home" class="nav-link active">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#education" class="nav-link">Journey</a>
+          <a href="#achievements" class="nav-link">Achievements</a>
+          <a href="#interests" class="nav-link">Interests</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
+
+        <div class="slide-controls">
+          <button class="prev-btn" aria-label="Previous slide">←</button>
+          <button class="next-btn" aria-label="Next slide">→</button>
+        </div>
+      </nav>
+
+      <!-- Slide Progress -->
+      <div class="slide-progress">
+        <div class="slide-dots" aria-label="Slide navigation">
+          <button
+            class="slide-dot active"
+            data-slide="0"
+            aria-label="Go to Home"
+          ></button>
+          <button
+            class="slide-dot"
+            data-slide="1"
+            aria-label="Go to About"
+          ></button>
+          <button
+            class="slide-dot"
+            data-slide="2"
+            aria-label="Go to Skills"
+          ></button>
+          <button
+            class="slide-dot"
+            data-slide="3"
+            aria-label="Go to Projects"
+          ></button>
+          <button
+            class="slide-dot"
+            data-slide="4"
+            aria-label="Go to Education"
+          ></button>
+          <button
+            class="slide-dot"
+            data-slide="5"
+            aria-label="Go to Achievements"
+          ></button>
+          <button
+            class="slide-dot"
+            data-slide="6"
+            aria-label="Go to Interests"
+          ></button>
+          <button
+            class="slide-dot"
+            data-slide="7"
+            aria-label="Go to Contact"
+          ></button>
+        </div>
+
+        <span class="slide-counter">
+          <span class="current-slide">01</span> / 08
+        </span>
+      </div>
+      ```
+    </header>
+
+    <!-- ================= MAIN SLIDES ================= -->
+
+    <main class="slides-container">
+      ```
+      <!-- ================= SLIDE 01 : HOME ================= -->
+      <section class="slide slide-home active" id="home">
+        <div class="slide-background">
+          <span class="bg-circle circle-1"></span>
+          <span class="bg-circle circle-2"></span>
+          <span class="bg-star">✦</span>
+          <span class="bg-star">✧</span>
+        </div>
+
+        <div class="slide-content home-content">
+          <div class="home-text">
+            <p class="eyebrow">WELCOME TO MY WORLD ✦</p>
+
+            <h1>
+              HELLO, I'M
+              <span>CHARISHMA REDDY</span>
+            </h1>
+
+            <h2>B.Tech Student | Creative Thinker | Future Innovator</h2>
+
+            <p class="hero-description">
+              Welcome to my colourful little universe, where curiosity,
+              creativity, technology and new ideas come together.
+            </p>
+
+            <div class="hero-buttons">
+              <a href="#about" class="primary-btn"> ENTER MY WORLD ✦ </a>
+
+              <a href="#contact" class="secondary-btn"> LET'S CONNECT ♡ </a>
+            </div>
+          </div>
+
+          <!-- Anime Character -->
+          <div class="anime-character-wrapper">
+            <div class="character-glow"></div>
+
+            <img
+              src="assets/anime-charishma.png"
+              alt="Dreamy anime-style illustration of Charishma Reddy"
+              class="anime-character"
+            />
+
+            <div class="character-decoration sparkle-character">✦</div>
+            <div class="character-decoration heart-character">♡</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= SLIDE 02 : ABOUT ================= -->
+      <section class="slide slide-about" id="about">
+        <div class="slide-background">
+          <span class="cloud cloud-about-1">☁</span>
+          <span class="cloud cloud-about-2">☁</span>
+          <span class="flower flower-1">✿</span>
+          <span class="flower flower-2">✿</span>
+        </div>
+
+        <div class="slide-content">
+          <div class="section-heading">
+            <span class="section-number">02</span>
+
+            <p class="eyebrow">GET TO KNOW ME</p>
+
+            <h2>
+              SO... WHO IS
+              <span>CHARISHMA?</span>
+            </h2>
+          </div>
+
+          <div class="about-layout">
+            <div class="about-text glass-card">
+              <p>
+                I'm a curious B.Tech student who loves exploring new ideas,
+                learning technology, and challenging myself to grow. I enjoy
+                combining creativity with problem-solving and turning simple
+                thoughts into interesting possibilities.
+              </p>
+            </div>
+
+            <div class="personality-grid">
+              <article class="personality-card">
+                <span class="card-icon">🔍</span>
+                <h3>CURIOUS</h3>
+                <p>Always ready to discover something new.</p>
+              </article>
+
+              <article class="personality-card">
+                <span class="card-icon">🎨</span>
+                <h3>CREATIVE</h3>
+                <p>Turning ideas into colourful possibilities.</p>
+              </article>
+
+              <article class="personality-card">
+                <span class="card-icon">📚</span>
+                <h3>LEARNER</h3>
+                <p>Learning, improving and growing every day.</p>
+              </article>
+
+              <article class="personality-card">
+                <span class="card-icon">🌙</span>
+                <h3>DREAMER</h3>
+                <p>Imagining what could be possible.</p>
+              </article>
+
+              <article class="personality-card">
+                <span class="card-icon">🧭</span>
+                <h3>EXPLORER</h3>
+                <p>Exploring technology and new experiences.</p>
+              </article>
+
+              <article class="personality-card">
+                <span class="card-icon">💡</span>
+                <h3>INNOVATOR</h3>
+                <p>Finding creative ways to solve problems.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= SLIDE 03 : SKILLS ================= -->
+      <section class="slide slide-skills" id="skills">
+        <div class="slide-background">
+          <span class="code-symbol symbol-1">&lt;/&gt;</span>
+          <span class="code-symbol symbol-2">{ }</span>
+          <span class="code-symbol symbol-3">&lt;&gt;</span>
+          <span class="lightning">⚡</span>
+        </div>
+
+        <div class="slide-content">
+          <div class="section-heading">
+            <span class="section-number">03</span>
+
+            <p class="eyebrow">MY SUPERPOWERS</p>
+
+            <h2>
+              WHAT I
+              <span>CAN DO</span>
+            </h2>
+          </div>
+
+          <div class="skills-grid">
+            <article class="skill-card">
+              <span class="skill-icon">&lt;/&gt;</span>
+              <h3>HTML</h3>
+              <p>Creating clean and meaningful web structures.</p>
+            </article>
+
+            <article class="skill-card">
+              <span class="skill-icon">🎨</span>
+              <h3>CSS</h3>
+              <p>Designing colourful and responsive interfaces.</p>
+            </article>
+
+            <article class="skill-card">
+              <span class="skill-icon">JS</span>
+              <h3>JAVASCRIPT</h3>
+              <p>Adding interaction and dynamic experiences.</p>
+            </article>
+
+            <article class="skill-card">
+              <span class="skill-icon">🧩</span>
+              <h3>PROBLEM SOLVING</h3>
+              <p>Breaking challenges into simple solutions.</p>
+            </article>
+
+            <article class="skill-card">
+              <span class="skill-icon">💡</span>
+              <h3>CREATIVE THINKING</h3>
+              <p>Generating fresh and interesting ideas.</p>
+            </article>
+
+            <article class="skill-card">
+              <span class="skill-icon">💬</span>
+              <h3>COMMUNICATION</h3>
+              <p>Sharing ideas clearly and confidently.</p>
+            </article>
+
+            <article class="skill-card">
+              <span class="skill-icon">🤝</span>
+              <h3>TEAMWORK</h3>
+              <p>Collaborating and learning with others.</p>
+            </article>
+
+            <article class="skill-card">
+              <span class="skill-icon">🚀</span>
+              <h3>INNOVATION</h3>
+              <p>Exploring creative ways to build something new.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= SLIDE 04 : PROJECTS ================= -->
+      <section class="slide slide-projects" id="projects">
+        <div class="slide-background">
+          <span class="project-decoration">💡</span>
+          <span class="project-decoration">⚙</span>
+          <span class="project-decoration">✦</span>
+          <span class="project-decoration">★</span>
+        </div>
+
+        <div class="slide-content">
+          <div class="section-heading">
+            <span class="section-number">04</span>
+
+            <p class="eyebrow">MY CREATIVE LAB</p>
+
+            <h2>
+              THINGS I'M
+              <span>BUILDING</span>
+            </h2>
+          </div>
+
+          <div class="projects-grid">
+            <article class="project-card">
+              <div class="project-number">01</div>
+
+              <div class="project-icon">💻</div>
+
+              <h3>Personal Portfolio Website</h3>
+
+              <p>
+                A creative website designed to showcase my skills, ideas,
+                projects and learning journey.
+              </p>
+
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+
+              <button class="project-btn">EXPLORE ✦</button>
+            </article>
+
+            <article class="project-card">
+              <div class="project-number">02</div>
+
+              <div class="project-icon">💡</div>
+
+              <h3>Creative Innovation Idea</h3>
+
+              <p>
+                An innovative concept combining technology, creativity and
+                problem-solving.
+              </p>
+
+              <div class="project-tags">
+                <span>Innovation</span>
+                <span>Ideas</span>
+                <span>Design</span>
+              </div>
+
+              <button class="project-btn">EXPLORE ✦</button>
+            </article>
+
+            <article class="project-card">
+              <div class="project-number">03</div>
+
+              <div class="project-icon">✨</div>
+
+              <h3>Interactive Web Experiment</h3>
+
+              <p>
+                A fun interactive web experience created while learning modern
+                web technologies.
+              </p>
+
+              <div class="project-tags">
+                <span>Web</span>
+                <span>Creative</span>
+                <span>Interactive</span>
+              </div>
+
+              <button class="project-btn">EXPLORE ✦</button>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= SLIDE 05 : EDUCATION ================= -->
+      <section class="slide slide-education" id="education">
+        <div class="slide-background">
+          <span class="journey-star">★</span>
+          <span class="journey-arrow">➜</span>
+          <span class="flower">✿</span>
+          <span class="sparkle">✦</span>
+        </div>
+
+        <div class="slide-content">
+          <div class="section-heading">
+            <span class="section-number">05</span>
+
+            <p class="eyebrow">MY JOURNEY SO FAR</p>
+
+            <h2>
+              LEARN.
+              <span>BUILD.</span>
+              GROW.
+            </h2>
+          </div>
+
+          <div class="timeline">
+            <div class="timeline-item active">
+              <div class="timeline-dot">✦</div>
+
+              <div class="timeline-card glass-card">
+                <span class="timeline-date">PRESENT</span>
+
+                <h3>B.Tech — First Year</h3>
+
+                <p>Learning • Exploring • Building</p>
+              </div>
+            </div>
+
+            <div class="timeline-line"></div>
+
+            <div class="timeline-item next">
+              <div class="timeline-dot">★</div>
+
+              <div class="timeline-card glass-card">
+                <span class="timeline-date">NEXT CHAPTER</span>
+
+                <h3>Learn • Build • Innovate</h3>
+
+                <p>
+                  Continuing my journey with curiosity, creativity and
+                  technology.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= SLIDE 06 : ACHIEVEMENTS ================= -->
+      <section class="slide slide-achievements" id="achievements">
+        <div class="slide-background">
+          <span class="confetti">✦</span>
+          <span class="confetti">★</span>
+          <span class="confetti">✧</span>
+          <span class="trophy-decoration">🏆</span>
+        </div>
+
+        <div class="slide-content">
+          <div class="section-heading">
+            <span class="section-number">06</span>
+
+            <p class="eyebrow">SMALL WINS, BIG DREAMS</p>
+
+            <h2>
+              THINGS I'M
+              <span>PROUD OF</span>
+            </h2>
+          </div>
+
+          <div class="achievement-grid">
+            <article class="achievement-card">
+              <span class="achievement-icon">🚀</span>
+
+              <h3>PROJECT WORK</h3>
+
+              <p>Exploring ideas and turning them into practical projects.</p>
+            </article>
+
+            <article class="achievement-card">
+              <span class="achievement-icon">🎤</span>
+
+              <h3>PRESENTATIONS</h3>
+
+              <p>Sharing ideas and learning to present with confidence.</p>
+            </article>
+
+            <article class="achievement-card">
+              <span class="achievement-icon">💡</span>
+
+              <h3>CREATIVE IDEAS</h3>
+
+              <p>Coming up with fresh ideas and interesting possibilities.</p>
+            </article>
+
+            <article class="achievement-card">
+              <span class="achievement-icon">🌱</span>
+
+              <h3>GROWTH MINDSET</h3>
+
+              <p>Learning from every experience and improving continuously.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= SLIDE 07 : INTERESTS ================= -->
+      <section class="slide slide-interests" id="interests">
+        <div class="slide-background">
+          <span class="rainbow-decoration">🌈</span>
+          <span class="planet-decoration">🪐</span>
+          <span class="butterfly">🦋</span>
+          <span class="flower">🌸</span>
+          <span class="cloud">☁</span>
+          <span class="sparkle">✦</span>
+        </div>
+
+        <div class="slide-content">
+          <div class="section-heading">
+            <span class="section-number">07</span>
+
+            <p class="eyebrow">MY LITTLE UNIVERSE</p>
+
+            <h2>
+              THINGS THAT SPARK
+              <span>MY CURIOSITY</span>
+            </h2>
+          </div>
+
+          <div class="interests-cloud">
+            <span class="interest-bubble">💻 Technology</span>
+
+            <span class="interest-bubble">🎨 Creativity</span>
+
+            <span class="interest-bubble">✨ Designing</span>
+
+            <span class="interest-bubble">📚 Learning</span>
+
+            <span class="interest-bubble">💡 Innovation</span>
+
+            <span class="interest-bubble">🔎 Exploring Ideas</span>
+
+            <span class="interest-bubble">🚀 Projects</span>
+
+            <span class="interest-bubble">🧩 Problem Solving</span>
+          </div>
+
+          <p class="interests-description">
+            I love discovering new ideas, experimenting with technology,
+            designing creative things and learning something interesting every
+            day.
+          </p>
+        </div>
+      </section>
+
+      <!-- ================= SLIDE 08 : CONTACT ================= -->
+      <section class="slide slide-contact" id="contact">
+        <div class="slide-background">
+          <span class="contact-heart">♡</span>
+          <span class="contact-star">✦</span>
+          <span class="contact-sparkle">✧</span>
+          <span class="glowing-circle"></span>
+          <span class="flower">✿</span>
+        </div>
+
+        <div class="slide-content">
+          <div class="section-heading">
+            <span class="section-number">08</span>
+
+            <p class="eyebrow">LET'S CONNECT</p>
+
+            <h2>
+              LET'S CREATE
+              <span>SOMETHING AMAZING!</span>
+            </h2>
+
+            <p class="contact-intro">
+              Have an idea, project, or something interesting to share? Let's
+              connect!
+            </p>
+          </div>
+
+          <div class="contact-layout">
+            <!-- Contact Information -->
+            <div class="contact-info glass-card">
+              <h3>FIND ME HERE ✦</h3>
+
+              <div class="contact-links">
+                <a href="mailto:your-email@example.com" class="contact-link">
+                  <span class="contact-icon">✉</span>
+                  <span>
+                    <small>Email</small>
+                    your-email@example.com
+                  </span>
+                </a>
+
+                <a href="#" class="contact-link">
+                  <span class="contact-icon">in</span>
+                  <span>
+                    <small>LinkedIn</small>
+                    Connect with me
+                  </span>
+                </a>
+
+                <a href="#" class="contact-link">
+                  <span class="contact-icon">⌘</span>
+                  <span>
+                    <small>GitHub</small>
+                    Explore my projects
+                  </span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Contact Form -->
+            <form class="contact-form glass-card" action="#" method="post">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Enter your name"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="email">Your Email</label>
+
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Enter your email"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="message">Your Message</label>
+
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  placeholder="Write something..."
+                  required
+                ></textarea>
+              </div>
+
+              <button type="submit" class="send-message-btn">
+                SEND MESSAGE ✦
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+      ```
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="site-footer">
+      ```
+      <p>
+        Made with curiosity, creativity & colour by
+        <strong>Charishma Reddy</strong> ✦
+      </p>
+
+      <div class="footer-links">
+        <a href="mailto:your-email@example.com">Email</a>
+
+        <a href="#" aria-label="LinkedIn profile"> LinkedIn </a>
+
+        <a href="#" aria-label="GitHub profile"> GitHub </a>
+      </div>
+      ```
+    </footer>
+
+    <!-- JavaScript file will be connected in the HTML head/body -->
+  </body>
+</html>
