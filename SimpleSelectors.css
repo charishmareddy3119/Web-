@@ -1,0 +1,45 @@
+#A {
+    color: rgb(247, 37, 103);
+    font-size: 100px;
+    font-style: oblique;
+    text-align: center;
+}
+
+.B {
+    background-color: rgb(254, 203, 231);
+    color: rgb(247, 37, 103);
+    font-size: 30px;
+} 
+
+h2 {
+    background-color: aqua;
+    color: rgb(177, 4, 4);
+    font-size: 50px;
+    font-style: italic;
+}
+
+h3,i {
+    background-color: darkgoldenrod;
+    color: rgb(217, 3, 46);
+    font-size: 30px;
+}
+
+body {
+    background-color: rgb(245, 190, 211);
+}
+
+* {
+    background-color:rgb(254, 178, 212) ;
+    color: rgb(216, 2, 99);
+    font-size: 25px;
+}
+
+h1 {
+    color: rgb(205, 3, 108);
+    font-size: 100px;
+}
+.C {
+    color: rgb(165, 3, 95);
+    font-size: 50px;
+    font-style: italic;
+}
