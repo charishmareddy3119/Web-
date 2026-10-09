@@ -1,0 +1,25 @@
+div {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(249, 117, 143);
+}
+
+h1 {
+    color: red;
+}
+
+h2 {
+    color: #554516;
+}
+
+h3 {
+    color: rgb(200,44,255);
+}
+
+h4 {
+    color: rgba(200, 40, 60, 0.9);
+}
+
+b {
+    color: hsl(0deg, 50%, 50%);
+}
